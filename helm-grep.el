@@ -1444,7 +1444,7 @@ colorization of backend, however it is still supported.
 
 For ripgrep here is the command line to use:
 
-    rg --color=always --smart-case --no-heading --line-number %s %s %s
+    rg --color=always --hidden --smart-case --no-heading --line-number %s %s %s
 
 And to customize colors (always for ripgrep) use something like this:
 
